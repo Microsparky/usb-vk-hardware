@@ -544,17 +544,6 @@ F 3 "" H 6000 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6000 1500
-$Comp
-L Connector:Conn_01x10_Male J1
-U 1 1 60AE72D6
-P 7300 4400
-F 0 "J1" H 7408 4981 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 7408 4890 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7300 4400 50  0001 C CNN
-F 3 "~" H 7300 4400 50  0001 C CNN
-	1    7300 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 4300 8000 4300
 Wire Wire Line
@@ -694,4 +683,15 @@ F 3 "" H 9500 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9500 5000
+$Comp
+L Connector:Conn_01x10_Male J1
+U 1 1 60AE72D6
+P 7300 4400
+F 0 "J1" H 7408 4981 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 7408 4890 50  0000 C CNN
+F 2 "USBVolumeKnob:PinHeader_1x10_P2.54mm_Vertical" H 7300 4400 50  0001 C CNN
+F 3 "~" H 7300 4400 50  0001 C CNN
+	1    7300 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
