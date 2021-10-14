@@ -34,3 +34,7 @@ _autosave-*
 
 # Ignore design outputs
 /DesignOutputs
+
+# Ignore
+/Reference
+/Local
