@@ -1,4 +1,4 @@
-(module PEC12R-4xxxF (layer F.Cu) (tedit 60B01E96)
+(module PEC12R-4xxxF (layer F.Cu) (tedit 617B2304)
   (fp_text reference REF** (at -5 -4 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -29,7 +29,7 @@
   (pad 2 thru_hole circle (at 2.5 -7) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole roundrect (at -5.7 0) (size 2.8 3) (drill oval 1.8 2.2) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 7 thru_hole roundrect (at 5.7 0) (size 2.8 3) (drill oval 1.8 2.2) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (model C:/Users/peter/Downloads/pec12r-4020f-n0024.stp
+  (model ${KIPRJMOD}/Lib3D/pec12r-4020f-n0024.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

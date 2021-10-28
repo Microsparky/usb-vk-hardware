@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "USBVolumeKnob"
-Date "2021-05-24"
-Rev "v01"
+Date "2021-10-26"
+Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1896,8 +1896,6 @@ Text Notes 1200 3150 0    50   ~ 0
 STM32 With USB FS
 Text Notes 1200 8800 0    50   ~ 0
 Encoder and Buttons
-Text Notes 11800 9850 0    50   ~ 0
-TODO:\n\nSchematic Time:\n- 4h (LED, Encoder, Buttons)\n- 2h (STM32, USB, power)\n- 6h (USB, power)\n- 4h (JTAG, STM32 pinout, level translation)\n- 4h (Tidy up, Footprint assignment, USB footprint creation)\n\nLayout Time:\n- 4h (Probably, Board shape, component import, placement)\n- 2h (Component placement and routing)\n- 2.5h (component placement complete)
 $Comp
 L Switch:SW_Push SW4
 U 1 1 6207A68D
